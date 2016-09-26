@@ -1,0 +1,1 @@
+sinefn.d: ../sinefn.c
