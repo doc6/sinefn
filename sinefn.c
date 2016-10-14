@@ -49,7 +49,7 @@ int main(void)
 	angle = 0.0;
 	step = 0.1;
 	while (1) {
-		value = (unsigned char)((sin(angle) + 1)*127);		// fixed the sine calculation to range from 0 to 254.
+		value = (unsigned char)((sin(angle) + 1)*127);		// fixed the sine calculation to range from 0 to 255.
 		write_dac(value);
 		angle += step;
 	}
